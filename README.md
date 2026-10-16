@@ -18,4 +18,6 @@
 x86_64-w64-mingw32-g++ -std=c++17 -static -mwindows main.cpp -o WeightedGraphApp.exe -lcomctl32 -lgdi32 -luser32
 ```
 Полученный файл можно запустить в Linux через Wine:
-`wine WeightedGraphApp.exe`
+``` bash
+wine WeightedGraphApp.exe
+```
